@@ -1,0 +1,18 @@
+.title{
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+
+.raw_data{
+  display: flex;
+  align-items: center;
+}
+
+.ace_border{
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+}
+
+.copy_btn{
+  margin: 0 0 5px 5px;
+}

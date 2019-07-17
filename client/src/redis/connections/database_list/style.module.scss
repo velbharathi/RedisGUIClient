@@ -1,0 +1,21 @@
+.db_ul{
+    color: #000;
+    list-style: none;
+}
+
+.db_li{
+
+}
+
+.list_style_none{
+    list-style: none;
+}
+
+.li_key{
+    cursor: pointer;
+    white-space: nowrap;
+    &:hover{
+        background: #f3f4f4;
+    }
+    
+}

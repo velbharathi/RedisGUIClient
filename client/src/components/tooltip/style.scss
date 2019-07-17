@@ -1,0 +1,28 @@
+.toolTipContainer {
+    .tooltip {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #1c1c1c;
+        color: #fff;
+        /* width: 100%; */
+        left: 10px;
+        white-space: nowrap;
+        padding: 2px 6px;
+        z-index: 2;
+        margin-top: 5px;
+        border-radius: 3px;
+        font-size: 14px;
+        &::before {
+            content: "";
+            padding: 10px;
+            position: absolute;
+            background: #000;
+            z-index: -1;
+            left: 5px;
+            transform: rotate(45deg);
+            top: -2px;
+        }
+    }
+}

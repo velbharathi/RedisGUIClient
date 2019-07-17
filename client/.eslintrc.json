@@ -1,0 +1,13 @@
+{
+  "extends": ["plugin:prettier/recommended"],
+  "rules": {
+    "semi": ["error", "always"],
+    "quotes": ["error", "double"],
+    "linebreak-style": 0,
+    "react/require-default-props": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/button-has-type": 0,
+    "no-shadow": 0
+  },
+  "parser": "babel-eslint"
+}

@@ -1,0 +1,94 @@
+# Server
+redis_version:3.0.503
+redis_git_sha1:00000000
+redis_git_dirty:0
+redis_build_id:d14575c6134f877
+redis_mode:standalone
+os:Windows  
+arch_bits:64
+multiplexing_api:WinSock_IOCP
+process_id:4468
+run_id:273d43e9a4fecb4c0086791fdf372e29f071ad4c
+tcp_port:6379
+uptime_in_seconds:336825
+uptime_in_days:3
+hz:10
+lru_clock:7520770
+config_file:D:\RedisNative\redis.windows.conf
+
+# Clients
+connected_clients:1
+client_longest_output_list:0
+client_biggest_input_buf:0
+blocked_clients:0
+
+# Memory
+used_memory:4925600
+used_memory_human:4.70M
+used_memory_rss:4866952
+used_memory_peak:5155456
+used_memory_peak_human:4.92M
+used_memory_lua:36864
+mem_fragmentation_ratio:0.99
+mem_allocator:jemalloc-3.6.0
+
+# Persistence
+loading:0
+rdb_changes_since_last_save:0
+rdb_bgsave_in_progress:0
+rdb_last_save_time:1550687817
+rdb_last_bgsave_status:ok
+rdb_last_bgsave_time_sec:-1
+rdb_current_bgsave_time_sec:-1
+aof_enabled:0
+aof_rewrite_in_progress:0
+aof_rewrite_scheduled:0
+aof_last_rewrite_time_sec:-1
+aof_current_rewrite_time_sec:-1
+aof_last_bgrewrite_status:ok
+aof_last_write_status:ok
+
+# Stats
+total_connections_received:84
+total_commands_processed:267
+instantaneous_ops_per_sec:0
+total_net_input_bytes:5861
+total_net_output_bytes:273514
+instantaneous_input_kbps:0.00
+instantaneous_output_kbps:0.00
+rejected_connections:0
+sync_full:0
+sync_partial_ok:0
+sync_partial_err:0
+expired_keys:0
+evicted_keys:0
+keyspace_hits:0
+keyspace_misses:55
+pubsub_channels:0
+pubsub_patterns:0
+latest_fork_usec:0
+migrate_cached_sockets:0
+
+# Replication
+role:master
+connected_slaves:0
+master_repl_offset:0
+repl_backlog_active:0
+repl_backlog_size:1048576
+repl_backlog_first_byte_offset:0
+repl_backlog_histlen:0
+
+# CPU
+used_cpu_sys:13.41
+used_cpu_user:23.11
+used_cpu_sys_children:0.00
+used_cpu_user_children:0.00
+
+# Cluster
+cluster_enabled:0
+
+# Keyspace
+db0:keys=7,expires=0,avg_ttl=0
+db1:keys=107,expires=0,avg_ttl=0
+db2:keys=19,expires=0,avg_ttl=0
+db15:keys=8,expires=0,avg_ttl=0

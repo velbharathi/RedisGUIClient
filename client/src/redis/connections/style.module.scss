@@ -1,0 +1,46 @@
+@import "../../scss/variables.scss";
+
+.connections_header{
+    margin: 0px 0 3px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.hostname{
+    display: flex;
+    padding: 0 5px;
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .3s;
+    font-weight: bold;
+    color: grey;
+    &:hover{
+        background: #e6f7ff;
+    }
+}
+
+.active_hosts{
+    color: #1eb21e;
+    padding: 0;
+}
+
+.no_ul{
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    height: calc(100% - 1px);
+}
+
+.display_flex{
+    display: flex;
+}
+
+.padding_left_two{
+    padding-left: 2px;
+}
+
+.connections_container{
+    height: 100%;
+}

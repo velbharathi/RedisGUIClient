@@ -1,0 +1,65 @@
+@import "../../scss/variables.scss";
+
+button {
+  padding: 8px 12px 8px 12px;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 1px 1px 1px 1px;
+  overflow: hidden;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-transition: scale .2s ease-in-out;
+  transition: scale .2s ease-in-out;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background-color: $default;
+  transition: 0.1s ease;
+}
+
+button:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+.primary{
+    background-color: $primary;
+    color: $text-secondary;
+    &:hover{
+        background-color: $primary;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    }
+}
+
+.secondary{
+    background-color: $secondary;
+    color: $text-secondary;
+    &:hover{
+        background-color: $secondary;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    }
+}
